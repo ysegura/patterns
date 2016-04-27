@@ -10,6 +10,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>system</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mvc</module>
+        <module>session</module>
+        <module>worker-thread</module>
+        <module>callback</module>
+        <module>successive-update</module>
+        <module>router</module>
+        <module>transaction</module>
+    </modules>
 
 
 </project>
