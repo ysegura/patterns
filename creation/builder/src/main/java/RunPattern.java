@@ -62,8 +62,8 @@ public class RunPattern {
         try {
             System.out.println("Creating a new Appointment with a MeetingBuilder.");
             System.out.println("We are providing an EndDate, so no Exception is thrown");
-            appointment = scheduler.createAppointment(meetingBuilder, createDate(2002, 4, 1, 10, 0),
-                    createDate(2002, 4, 1, 11, 30), "OOO Meeting", new LocationImpl("Butte, MT"), createAttendees(2));
+            appointment = scheduler.createAppointment(meetingBuilder, createDate(2020, 4, 1, 10, 0),
+                    createDate(2020, 4, 1, 11, 30), "OOO Meeting", new LocationImpl("Butte, MT"), createAttendees(2));
             System.out.println("Appointment created");
             System.out.println("Information:");
             System.out.println(appointment);
